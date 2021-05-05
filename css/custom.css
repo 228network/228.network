@@ -23032,8 +23032,12 @@
 /*# sourceMappingURL=custom.css.map */
 
 /* brand items */
-.brand-logo
-{
+.brand-logo {
   position: relative;
   top: 10px;
+}
+
+.brand-logo-footer {
+  position: relative;
+  width:60%;
 }
