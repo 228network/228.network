@@ -1,4 +1,4 @@
-/* /////////////////////////// 
+/* ///////////////////////////
     Components
 //////////////////////////// */
  .section-title {
@@ -36,7 +36,7 @@
   padding-bottom: 120px;
  }
 }
-/* /////////////////////////// 
+/* ///////////////////////////
     Header Area
 //////////////////////////// */
 .site-header{
@@ -158,7 +158,7 @@
 }
 
 
-/*  Mobile Menu / Mean Menu Reset  */ 
+/*  Mobile Menu / Mean Menu Reset  */
 
  .mobile-menu.mean-container{
    .mean-bar{
@@ -223,7 +223,7 @@
          border-radius: 8px;
        }
        .menu-item{
-         
+
          > a{
            border-bottom:0;
            font-size: 15px;
@@ -240,14 +240,14 @@
            border-top:1px solid #e5e5e5;
            border-bottom:1px solid transparent;
          }
-         
+
          @include tablet{
            padding-left: 40px;
          }
          p{
            margin-bottom: 0;
          }
-         
+
        }
        ul li {
          float: none;
@@ -375,7 +375,7 @@
         }
       }
     }
-  
+
 
   .form-text{
     color: #878b90;
@@ -389,7 +389,7 @@
   }
 }
 
-  /* /////////////////////////// 
+  /* ///////////////////////////
     Feature Section
 //////////////////////////// */
 .feature-area {
@@ -477,20 +477,20 @@
           margin-bottom:34px;
         }
         i {
-            transition: .4s; 
-        } 
+            transition: .4s;
+        }
       }
       &:hover {
         .widget-icon {
             i {
-                transform: rotateY(180deg);  
-            }  
+                transform: rotateY(180deg);
+            }
         }
       }
   }
 }
 
-  /* /////////////////////////// 
+  /* ///////////////////////////
     Content Sectio-01
 //////////////////////////// */
 
@@ -531,7 +531,7 @@
     @include desktops{
       margin-bottom: 40px;
     }
-    
+
   }
   h2 {
     color: #ffffff;
@@ -622,7 +622,7 @@
   }
  }
  .content-wrapper {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgb(0 123 255 / 25%);
   padding-bottom: 65px;
   @include desktops{
     padding-bottom: 122px;
@@ -743,22 +743,22 @@
 //   //       margin: 0 0 34px;
 //   //     }
 //   //     i {
-//   //         transition: .4s; 
-//   //     } 
+//   //         transition: .4s;
+//   //     }
 //   // }
 //   // &:hover {
 //   //     .widget-icon {
 //   //         i {
-//   //             transform: rotateY(180deg);  
-//   //         }  
+//   //             transform: rotateY(180deg);
+//   //         }
 //   //     }
 //   // }
 // }
 
 
-/*/////////////////////////////// 
+/*///////////////////////////////
       Testimonial
-///////////////////////////////*/ 
+///////////////////////////////*/
 
 .masonry-with-columns {
   columns: 2 300px;
@@ -791,7 +791,7 @@
   }
 
   .card-id {
-      display: flex;    
+      display: flex;
       .id-content {
           margin-left: 22px;
           h6 {
@@ -802,7 +802,7 @@
               letter-spacing: -0.32px;
               margin-bottom: 11px;
           }
-  
+
           span {
               color: #666666;
               font-family: 'Karla', sans-serif;
@@ -865,9 +865,9 @@
 }
 
 
-/*//////////////////////////// 
+/*////////////////////////////
         Client
-///////////////////////////*/ 
+///////////////////////////*/
 .client-section {
   @include section-padding;
   border-bottom: 1px solid#e5e5e5;
@@ -1033,7 +1033,7 @@
       padding-top: 33px;
       padding-bottom: 5px;
       margin-left: 1px;
-      
+
       .btn {
         padding: 0 37px;
         // &:hover {
@@ -1078,7 +1078,7 @@
 }
 }
 
-/* /////////////////////////// 
+/* ///////////////////////////
     Footer Section
 //////////////////////////// */
 
@@ -1101,7 +1101,7 @@
         line-height: 28px;
       @include desktops {
           padding-right: 22px;
-      
+
         }
       }
     }
@@ -1123,7 +1123,7 @@
     font-weight: 400;
     letter-spacing: -0.4px;
     line-height: 28px;
-    
+
   }
   .footer-social-list {
     margin-top: 30px;
@@ -1139,7 +1139,7 @@
       }
     }
   }
-  
+
   .footer-list {
     li {
       a {
