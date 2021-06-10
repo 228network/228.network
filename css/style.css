@@ -23039,9 +23039,13 @@
 
 .brand-logo-footer {
   position: relative;
-  width:44%;
+  width: 44%;
 }
 
 .primary-color {
   color: #007bff;
+}
+
+.brand-logo-resize {
+  width: 72%;
 }
