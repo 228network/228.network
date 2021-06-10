@@ -23039,5 +23039,9 @@
 
 .brand-logo-footer {
   position: relative;
-  width:60%;
+  width: 60%;
+}
+
+.brand-logo-resize {
+  width: 72%;
 }
